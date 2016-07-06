@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>CALCULATOR</title>
+</head>
+<link rel="stylesheet" href="calculator.css">
+<body>
+   <div class="calculator">
+   	<form>
+   <input type="text" id="display" disabled><br>
+   <input type="button"  value="C" id="keys" onclick="addtoscreen('c')">
+    <input type="button"  value="1" id="keys" onclick="addtoscreen('1')">
+    <input type="button" value="2" id="keys" onclick="addtoscreen('2')">
+    <input type="button" value="3" id="keys" onclick="addtoscreen('3')">
+    <br>
+     <input type="button" id="keys" value="/" onclick="addtoscreen('/')">
+    <input type="button" value="4" id="keys" onclick="addtoscreen('4')">
+    <input type="button" id="keys" value="5" onclick="addtoscreen('5')">
+    <input type="button" id="keys" value="6" onclick="addtoscreen('6')">
+    <br>
+     <input type="button" id="keys" value="-" onclick="addtoscreen('-')">
+    <input type="button" id="keys" value="7" onclick="addtoscreen('7')">
+    <input type="button" id="keys" value="8" onclick="addtoscreen('8')">
+    <input type="button" id="keys" value="9" onclick="addtoscreen('9')">
+    <br>
+    <input type="button" id="keys" value="+" onclick="addtoscreen('+')">
+    <input type="button" id="keys" value="0" onclick="addtoscreen('0')">
+     <input type="button" id="keys" value="." onclick="addtoscreen('.')">
+    <input type="button" id="keys" value="*" onclick="addtoscreen('*')">
+    <br>
+    <input type="button" id="equals" value="=" onclick="result('=')">
+   </form>
+    <script type="text/javascript" src="calculator.js"></script>
+   </div>
+</body>
+</html>
